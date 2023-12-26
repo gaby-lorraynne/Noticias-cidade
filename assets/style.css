@@ -1,0 +1,82 @@
+/* Formatação geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatação do corpo da página*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #FFF url(../assets/imagens/fundo.png) repeat-x;
+}
+
+#content{
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#topo{
+    height: 150px;
+    background: url(../assets/imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+    border: 1px solid red;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../assets/imagens/logo.png) no-repeat center;
+    text-indent: -3000px; /*Como o leitor não le imagens, colocamos o h1 escondido para quando pesquisar pelo titulo noticias cidade, aparecer nas buscas.*/
+}
+
+/* Barra de Navegação */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em; /*0.5em superior e inferior; 1.5em esquerda e direita*/
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #FFF;
+    background: url(../assets/imagens/divisor.png) no-repeat left center;
+}
+
+
+#topo ul .primeiro a{
+    background: none;/* Para remover o divisor na primeira parte */
+}
+
+#topo ul a:hover{
+    color:#69001d;
+}
+
+/* Para quando estiver na pág */
+body.home #navigation a#home,
+body.internacional #navigation a#internacional,
+body.economia #navigation a#economia,
+body.brasil #navigation a#brasil, 
+body.saude #navigation a#saude,
+body.ciencia #navigation a#ciencia,
+body.fotos #navigation a#fotos
+{
+    color: #FFF;
+    background: #de003e;
+    cursor: text;
+}
+
