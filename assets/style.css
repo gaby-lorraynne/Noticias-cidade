@@ -135,6 +135,44 @@ h2{
     margin-top: 5px;
 }
 
+/* Manu lateral */
+#lateral ul a{
+    font: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    padding-left: 20px;
+    background: #f9f9f9 url(../assets/imagens/marcador.png) no-repeat left center;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #FFF;
+}
+
+input.submit{
+    width: 80px;
+    color: #FFF;
+    background: #b10333;
+    border: 2px solid #870529;
+    margin-top: 10px;
+}
+
+
 
 /* Rodapé */
 footer{
