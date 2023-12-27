@@ -84,10 +84,29 @@ body.fotos #navigation a#fotos
     background: #f5f5f5;
 }
 
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #principal{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
+}
+
+#two-columns #principal{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#one-column #principal{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0;
     background: blue;
 }
 
@@ -95,15 +114,27 @@ body.fotos #navigation a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
-#lateral{
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: yellow;
+.box{
+    background: #f3f3f3 url(../assets/imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
 }
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.box-content{
+    background: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+}
+
 
 /* Rodapé */
 footer{
